@@ -1,1 +1,8 @@
-Django==4.1.3
+Django
+djangorestframework
+channels
+channels-redis      # Optional, only for Redis as channel backend
+django-cors-headers
+asgiref
+gunicorn
+uvicorn[standard]
